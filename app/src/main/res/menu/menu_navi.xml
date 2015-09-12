@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navi_state"
+            android:checked="true"
+            android:title="@string/navi_state" />
+        <item
+            android:id="@+id/navi_wol"
+            android:title="@string/navi_wol" />
+        </group>
+    <group>
+        <item
+            android:id="@+id/navi_setting"
+            android:title="@string/navi_setting"/>
+    </group>
+</menu>
